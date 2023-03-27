@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 25px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 20px;
+    font-family: Lato;
+    color: rgb(201, 194, 194);
+}
+.slash{
+    color: red;
+    font-weight: 700;
+}
+
+.about{
+    display: flex;
+    gap: 25px;
+    padding: 8px;
+}
+.about ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 2.5px;
+    font-family: Nunito;
+    color: rgb(143, 138, 138);
+}
+.signin{
+   display: flex;
+   gap: 20px;
+}
+.signin a{
+    text-decoration: none;
+    margin-right:10px ;
+    padding: 8px;
+    font-weight: bold;
+}
+.sign-in{
+    color: rgb(116, 116, 106);
+}
+.create{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.content{
+    margin: 50px auto;
+    width: 80%;
+    height: 33rem;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.carddetails{
+    padding: 70px 30px;
+    width: 40%;
+}
+h2{
+    font-size: 45px;
+}
+.carddetails div{
+    padding: 20px 0;
+}
+p1{
+    color: rgb(146, 137, 135);
+}
+.cardimg{
+    width: 50%;
+    height:100%;
+}
+.cardimg img{
+             width: 100%;
+             height:100%;
+}
+.cardreg{
+    border: 2px solid rgb(228, 225, 225);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items:center;
+    border-radius: 10px;
+}
+.cardreg div{
+    margin: 12px;
+    padding: 8px;
+}
+.email{
+    font-family: Rubik;
+}
+.freecard{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: Nunito;
+}
+.record{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.recordinfo{
+    display: flex;
+    align-items: center;
+}
+.recordvalue{
+    font-size: 30px;
+    font-weight:800;
+}
+.cardrecord{
+    font-size: 10px;
+    color:rgb(116, 116, 106) ;
+    font-family: Rubik;
+}
